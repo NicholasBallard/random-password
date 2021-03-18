@@ -89,4 +89,4 @@ $ . ~/.bashrc
 
 ...and now you're good to generate passwords from the command line!
 
-!(Generating passwords is fun! 👍)[screenshots/generated_password.png]
+![Generating passwords is fun! 👍](screenshots/generated_password.png)
