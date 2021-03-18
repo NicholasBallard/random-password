@@ -1,6 +1,6 @@
 # Random Password Generator
 
-Browser `suggest password` features are great, but still work to access, then copy/paste into a password database app.  
+Browser "suggest password" features are great, but are still too much work to access, then copy/paste into a password database app.  
 
 Also, plenty of sites block this functionality. I'm talking to you, Unity password reset page...
 
@@ -9,6 +9,8 @@ Also, plenty of sites block this functionality. I'm talking to you, Unity passwo
 Generates a user-specified length password, with a sensible / magical default of 10 character length otherwise.
 
 The generated password is guaranteed to include at least one uppercase letter, one lowercase, one digit, and one special character (punctuation).
+
+Plus, this program copies the password to your clipboard, on Windows, Mac, or Linux. Saves you a few clicks and key presses!
 
 ## Setting Up
 
@@ -58,7 +60,7 @@ Build the executable:
 (venv) $ pyinstaller --onefile randompassword.py
 ```
 
-On Windows this create an executable at `.\dist\randompassword.exe`.
+On Windows this creates an executable at `.\dist\randompassword.exe`.
 
 On MacOS and Linux distros, `pyinstaller` outputs a Unix executable at `./dist/randompassword`.
 
