@@ -8,7 +8,7 @@ def contains(i, x):
     return any([item in x for item in i])
 
 
-def main(len):
+def main(length):
     chars: list[str] = list(
         ascii_lowercase + ascii_uppercase + digits + punctuation
     )
@@ -21,7 +21,7 @@ def main(len):
         contains(punctuation, password),
     ])
     if not has_required_chars:
-        main(len)
+        main(length)
     return password
 
 
